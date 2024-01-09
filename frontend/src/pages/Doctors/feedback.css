@@ -1,0 +1,16 @@
+/* Add these styles to your CSS or use a CSS-in-JS solution */
+
+.btn-show-more,
+.btn-show-less {
+  font-size: 18px;
+  color: #0067FF; /* Default color */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Transition effect for color change on hover */
+  /* position: absolute; */
+  /* right: 0; */
+}
+
+.btn-show-more:hover,
+.btn-show-less:hover {
+  color: #ff4500; /* Hover color */
+}
